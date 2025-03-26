@@ -1,0 +1,43 @@
+# ▶ Python 기본
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ▶ 가상환경
+venv/
+env/
+.venv/
+ENV/
+
+# ▶ 환경설정
+.env
+*.env
+
+# ▶ Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# ▶ LangChain 벡터 저장소 (예: Chroma)
+vector_store/chroma/
+
+# ▶ 로그, 캐시
+*.log
+*.sqlite
+*.db
+.cache/
+logs/
+
+# ▶ macOS, Windows
+.DS_Store
+Thumbs.db
+
+# ▶ VSCode, PyCharm
+.vscode/
+.idea/
+
+# ▶ 배포 빌드 결과물
+dist/
+build/
+*.egg-info/
